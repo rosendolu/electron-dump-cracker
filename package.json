@@ -1,0 +1,15 @@
+{
+  "name": "crash-parser",
+  "version": "1.0.0",
+  "description": "Dump file parser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "rosendolu",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.4.1",
+    "minidump": "^0.26.0"
+  }
+}

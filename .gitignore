@@ -1,0 +1,4 @@
+node_modules/
+*.dmp
+*.dmp.txt
+*symbols/
