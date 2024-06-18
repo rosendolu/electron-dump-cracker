@@ -8,7 +8,8 @@ async function main() {
   try {
     const symbolPaths = path.join(
       __dirname,
-      'electron-v27.0.3-win32-x64-symbols/breakpad_symbols'
+      'electron-v27.0.3-win32-x64-symbols',
+      'breakpad_symbols'
     );
     minidump.addSymbolPath(symbolPaths);
     const dumpList = glob.sync('./**/*.dmp', { absolute: true });
