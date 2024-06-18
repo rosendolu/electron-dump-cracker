@@ -79,5 +79,10 @@ npm run start
    ```
 
 Refer
-[crash-reporter](https://www.electronjs.org/docs/latest/api/crash-reporter#crashreporteraddextraparameterkey-value)
-[chromium.googlesource.com/crashpad](https://chromium.googlesource.com/crashpad/crashpad/+/refs/heads/main/README.md)
+
+1. [crash-reporter](https://www.electronjs.org/docs/latest/api/crash-reporter#crashreporteraddextraparameterkey-value)
+2. [chromium.googlesource.com/crashpad](https://chromium.googlesource.com/crashpad/crashpad/+/refs/heads/main/README.md)
+
+Versions:
+
+1. [electron v27.0.3 symbols](https://github.com/electron/electron/releases?page=16)
