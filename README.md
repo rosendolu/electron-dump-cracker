@@ -7,10 +7,10 @@
 ### Clone the repo
 
 ```sh
-git clone
+git clone https://github.com/rosendolu/electron-dump-cracker.git
 ```
 
-### Download target [electron symbol](https://github.com/electron/electron/releases) file. Must match corresponding version & platform
+### Download target [electron symbol](https://github.com/electron/electron/releases) file. The symbol files you need to use should **_correspond to the platform where the application was built and where the crash occurred_**.
 
 1.  Electron version
 2.  Operating system
