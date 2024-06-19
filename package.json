@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Dump file parser",
   "main": "index.js",
-  "bin": {
-    "heapdump": "./modules/heapdump/index.js"
-  },
+  "bin": "index.js",
   "scripts": {
     "start": "node index.js",
     "make": "node script/make.js"

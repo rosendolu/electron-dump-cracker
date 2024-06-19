@@ -12,7 +12,10 @@ async function main() {
       'breakpad_symbols'
     );
     minidump.addSymbolPath(symbolPaths);
-    const dumpList = glob.sync('./**/*.dmp', { absolute: true });
+    const dumpList = glob.sync('./**/*.dmp', {
+      absolute: true,
+      cwd: __dirname
+    });
     console.log('dumpList', dumpList);
     await Promise.all(
       dumpList.map((dumpFilePath) => {
