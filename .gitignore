@@ -6,3 +6,6 @@ node_modules/
 *.gzip
 log/
 logs/
+*.exe
+dist/
+**/*.heapsnapshot
