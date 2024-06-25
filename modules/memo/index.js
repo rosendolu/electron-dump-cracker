@@ -92,12 +92,10 @@ async function getTaskList(filter) {
   let result = (await exec('tasklist').catch((err) => err)) || {};
   let { stdout, stderr } = result;
   assert(!stderr && stdout, util.format('tasklist error %s', stderr));
-  const psList =
-    stdout ||
-    ''
-      .split(/\n+/)
-      .map((str) => str.split(/\s+/))
-      .filter(filter);
+  const psList = stdout
+    .split(/\n+/)
+    .map((str) => str.split(/\s+/))
+    .filter(filter);
 
   return psList;
 }
