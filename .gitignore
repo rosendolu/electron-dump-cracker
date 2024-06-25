@@ -9,3 +9,5 @@ logs/
 *.exe
 dist/
 **/*.heapsnapshot
+*log
+*.log
